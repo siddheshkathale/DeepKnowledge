@@ -10,10 +10,12 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".view.Activities.CourseDetailsActivity"></activity>
+
+        <activity android:name=".view.Activities.CourseDetailsActivity"/>
         <activity android:name=".view.Activities.MainActivity" />
-        <activity android:name=".view.Activities.SplashActivity" />
-        <activity android:name=".view.Activities.SignInActivity">
+        <activity android:name=".view.Activities.SignInActivity" />
+        <activity android:name=".view.Activities.CreateAccountActivity"/>
+        <activity android:name=".view.Activities.SplashActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 

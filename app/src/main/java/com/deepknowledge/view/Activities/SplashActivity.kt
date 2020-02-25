@@ -1,7 +1,9 @@
 package com.deepknowledge.view.Activities
 
+import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import android.view.View
 import android.view.WindowManager
 import com.deepknowledge.R
 
@@ -37,13 +39,15 @@ class SplashActivity : AppCompatActivity() {
         )
 
 
-        //dataBinding!!.imgLady.visibility = View.VISIBLE
-        //dataBinding!!.imgGrass.visibility = View.VISIBLE
+        /*dataBinding!!.imgLady.visibility = View.VISIBLE
+        dataBinding!!.imgGrass.visibility = View.VISIBLE
 
-        //dataBinding!!.imgLady.startAnimation(slide_up)
-        //dataBinding!!.imgGrass.startAnimation(slide_up)
+        dataBinding!!.imgLady.startAnimation(slide_up)
+        dataBinding!!.imgGrass.startAnimation(slide_up)
 
-        //dataBinding!!.imgSplash.visibility = View.GONE
+        dataBinding!!.imgSplash.visibility = View.GONE*/
+
+        startActivity(Intent(this,SignInActivity::class.java))
     }
 
 }

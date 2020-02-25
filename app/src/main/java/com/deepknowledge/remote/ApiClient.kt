@@ -10,8 +10,8 @@ object ApiClient
     //private const val DOMAIN_NAME   = "http://basicproject.nteknova.com/"
     //private const val BASE_URL      = DOMAIN_NAME + "WebServiceHighway.asmx/"
 
-    private const val DOMAIN_NAME   = "http://demo.frugalnova.co.uk/"
-    private const val BASE_URL      = DOMAIN_NAME + "api/phonics/"
+    private const val DOMAIN_NAME   = "http://deepknowledgeapi.frugalnova.co.uk/"
+    private const val BASE_URL      = DOMAIN_NAME + "api/DeepakApi/"
 
     private var retrofit: Retrofit? = null
 
