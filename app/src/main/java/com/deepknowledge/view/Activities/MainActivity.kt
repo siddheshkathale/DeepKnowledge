@@ -1,4 +1,4 @@
-package com.deepknowledge.View.Activities
+package com.deepknowledge.view.Activities
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle

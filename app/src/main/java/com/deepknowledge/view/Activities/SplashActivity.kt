@@ -1,17 +1,10 @@
-package com.deepknowledge.View.Activities
+package com.deepknowledge.view.Activities
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.view.WindowManager
 import com.deepknowledge.R
-import kotlinx.android.synthetic.main.activity_splash.*
 
-import android.view.animation.AnimationUtils.loadAnimation
-import android.view.animation.Animation
-import androidx.core.app.ComponentActivity.ExtraData
-import androidx.core.content.ContextCompat.getSystemService
-import android.icu.lang.UCharacter.GraphemeClusterBreak.T
-import android.view.View
 import android.view.animation.AnimationUtils
 import androidx.databinding.DataBindingUtil
 import com.deepknowledge.databinding.ActivitySplashBinding

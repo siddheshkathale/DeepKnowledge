@@ -3,19 +3,17 @@
     package="com.deepknowledge">
 
     <application
-        android:hardwareAccelerated="true"
         android:allowBackup="true"
+        android:hardwareAccelerated="true"
         android:icon="@mipmap/ic_launcher"
         android:label="@string/app_name"
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-
-        <activity android:name=".View.Activities.MainActivity"/>
-
-        <activity android:name=".View.Activities.SplashActivity"/>
-
-        <activity android:name=".View.Activities.SignInActivity">
+        <activity android:name=".view.Activities.CourseDetailsActivity"></activity>
+        <activity android:name=".view.Activities.MainActivity" />
+        <activity android:name=".view.Activities.SplashActivity" />
+        <activity android:name=".view.Activities.SignInActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 

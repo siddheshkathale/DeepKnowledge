@@ -12,7 +12,7 @@
         android:background="@drawable/ic_background_gradient"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        tools:context=".View.Activities.SignInActivity">
+        tools:context=".view.Activities.SignInActivity">
 
         <androidx.constraintlayout.widget.ConstraintLayout
             android:id="@+id/constraintLayout2"
