@@ -29,9 +29,10 @@
     <string name="forgot_password">Forgot your password?</string>
     <string name="no_account">Don\'t have an account?</string>
     <string name="create_account_now">Create Account Now</string>
+    <string name="invalid_data">Invalid Data</string>
+
 
     // Main screen
-
     <string name="home">Home</string>
     <string name="my_account">My Account</string>
     <string name="download">Downloads</string>
